@@ -1,0 +1,26 @@
+<resources>
+            <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+
+    <style name="detail_text_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/detailTextColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="detail_header">
+        <item name="android:padding">@dimen/large_text</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Headline</item>
+    </style>
+
+    <style name="detail_text_product_activity">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Display1</item>
+        <item name="android:layout_marginLeft">@dimen/large_text</item>
+    </style>
+
+</resources>
